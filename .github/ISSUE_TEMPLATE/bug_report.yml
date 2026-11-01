@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible defect in the host tools or firmware tests.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include credentials, encryption keys, eFuse dumps, MAC addresses,
+        serial numbers, or unredacted raw logs. Redact identifying details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include commands and a minimal, redacted log excerpt.
+    validations:
+      required: true
+  - type: input
+    id: board
+    attributes:
+      label: Board and ESP32 variant
+      placeholder: For example, ESP32 Dev Module / ESP32-D0WD-V3
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Host environment and tool versions
+      description: OS, Python, PlatformIO, esptool, and USB-UART bridge.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Validation performed
+      description: Include tests/build commands and outcomes.

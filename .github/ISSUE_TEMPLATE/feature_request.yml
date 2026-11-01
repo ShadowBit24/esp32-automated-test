@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a focused improvement to ESP32 validation or diagnostics.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem or use case
+      description: What user need or validation gap should this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the smallest useful change and expected output.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and compatibility
+      description: Mention existing workflows or protocol behavior that must remain compatible.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and privacy
+      options:
+        - label: I have not included secrets, eFuse data, or identifying raw logs.
+          required: true

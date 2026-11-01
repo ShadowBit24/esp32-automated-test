@@ -1,0 +1,5 @@
+ets Jul 29 2019 12:21:46
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+ - loopTask
+Rebooting...

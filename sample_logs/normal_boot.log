@@ -1,0 +1,6 @@
+BOOT:firmware=esp32_test_firmware,chip=ESP32-D0WD-V3,revision=3,flash_bytes=4194304
+READY:esp32_test_firmware
+TEST_RESULT:{"name":"serial","status":"PASS","detail":"Serial is available"}
+TEST_RESULT:{"name":"free_heap","status":"PASS","detail":"198432 bytes free"}
+TEST_RESULT:{"name":"chip_info","status":"PASS","detail":"ESP32-D0WD-V3"}
+TEST_SUMMARY:{"total":3,"passed":3,"failed":0}

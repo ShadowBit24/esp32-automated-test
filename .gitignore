@@ -1,0 +1,32 @@
+# PlatformIO and ESP-IDF build output
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Test, coverage, and packaging output
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local generated hardware reports may include MAC addresses and raw device logs.
+# Keep reports/.gitkeep; explicitly select sanitized fixtures if needed.
+reports/*
+!reports/.gitkeep
+
+# Editor and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
