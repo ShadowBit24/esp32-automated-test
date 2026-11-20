@@ -18,6 +18,11 @@ Arduino-ESP32 sketch runs board tests; a Python CLI discovers the serial device,
 collects results, analyzes boot output, runs esptool diagnostics, scores
 hardware health, and writes JSON and Markdown reports.
 
+
+## The debugging pack
+
+The boot failure work behind this project is also written up as a field guide: the ESP32 Bring-Up and Boot Failure Debugging Pack, a seven-step method for boards that flash fine but will not boot, with the full worked case study, checklists, and templates. It is available here: https://nahiyan8.gumroad.com/l/esp32-boot-failure-debugging-pack
+
 ## Overview
 
 The project is designed to make board validation repeatable and useful during
